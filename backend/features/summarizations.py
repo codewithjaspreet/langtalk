@@ -11,10 +11,6 @@ import openai
 def loadAPI():
     openai.api_key = os.environ["OPENAI_API_KEY"]
 
-
-
-
-
 # summarization of the document using map reduce chain
 def summariseDOC():
 
